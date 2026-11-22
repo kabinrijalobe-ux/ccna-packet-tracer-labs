@@ -1,7 +1,7 @@
 # Day 1 — VLANs and Trunking in a Two-Floor Office
 
 I built a two-floor office network in Cisco Packet Tracer using two Cisco 2960 switches and five PCs. Staff and IT each needed to reach teammates on the other floor. Guest needed to stay separate from Staff.
-
+![Two-floor office network with five PCs and two switches connected by a trunk](topology.png)
 ## How I connected it
 
 | VLAN | Group | Floor 1 access port | Floor 2 access port |
