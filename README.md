@@ -3,6 +3,6 @@ My 30-day CCNA lab journal. I build networks in Cisco Packet Tracer and document
 
 ## University Campus Network
 
-- [November 22, 2026 — Building B, Day 1: VLANs, VLSM, trunk troubleshooting](university-campus-network/day-01/README.md)
+- [November 22, 2026 — Building B, Day 2: VLANs, VLSM, trunk troubleshooting](university-campus-network/day-02/README.md)
 
-This larger, ongoing university project is separate from the earlier two-floor VLAN lab. Day 1 contains verified tests, IP addressing, and an unresolved switch trunk-mode mismatch to fix in the next session.
+This larger, ongoing university project is separate from the earlier two-floor VLAN lab. Day 2 contains verified tests, IP addressing, and an unresolved switch trunk-mode mismatch to fix in the next session.
