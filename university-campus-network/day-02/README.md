@@ -111,33 +111,35 @@ The switch also generated an STP inconsistency warning regarding port type on Gi
 
 ## Screenshot evidence
 
-The screenshots below are taken from the real Cisco Packet Tracer session, showing the actual topology, verification results, and troubleshooting. They are included as evidence rather than a claim of completed inter-VLAN routing.
+The real screenshots from the November 22 Packet Tracer session were prepared and cropped to show the topology, VLAN assignments, student/faculty ping tests, 3560 trunk configuration, and the 2960 trunk mismatch. The screenshots have **not yet been uploaded to GitHub**; they are supplied separately as a ready-to-upload ZIP. Do not interpret the screenshots as proof of successful inter-VLAN routing; that part of the project remains unfinished.
 
-![University Packet Tracer topology](screenshots/01-topology.jpg)
+After uploading the screenshots to a `screenshots/` folder beside this README, the gallery can be added as follows:
 
-![Student VLAN ping](screenshots/02-student-ping.jpg)
+```markdown
+![Network topology](screenshots/01_topology.jpg)
+![VLAN assignments](screenshots/02_vlan_assignments.jpg)
+![Successful student ping](screenshots/03_student_ping.jpg)
+![Faculty ping and isolation test](screenshots/04_faculty_ping_and_isolation.jpg)
+![Distribution trunk verification](screenshots/05_trunk_configured_on_3560.jpg)
+![Access trunk mismatch](screenshots/06_trunk_mismatch_on_2960.jpg)
+```
 
-![Faculty VLAN connectivity and isolation](screenshots/03-faculty-ping.jpg)
-
-![Distribution trunk verification](screenshots/04-trunk-verification.jpg)
-
-![2960 trunk mismatch investigation](screenshots/05-trunk-mismatch.jpg)
-
-## Recommended repository files
+## Repository structure
 
 ```text
 university-campus-network/
 └── day-02/
     ├── README.md
-    └── screenshots/
-        ├── 01-topology.jpg
-        ├── 02-student-ping.jpg
-        ├── 03-faculty-ping.jpg
-        ├── 04-trunk-verification.jpg
-        └── 05-trunk-mismatch.jpg
+    └── screenshots/          # pending upload
+        ├── 01_topology.jpg
+        ├── 02_vlan_assignments.jpg
+        ├── 03_student_ping.jpg
+        ├── 04_faculty_ping_and_isolation.jpg
+        ├── 05_trunk_configured_on_3560.jpg
+        └── 06_trunk_mismatch_on_2960.jpg
 ```
 
-Add the actual Packet Tracer file and screenshots exported from the lab computer. **Crop or redact passwords and other sensitive information** from screenshots before committing them publicly.
+**Packet Tracer project file:** This session's .pkt file is not yet uploaded. Save the latest state of the lab and add it to this Day 2 folder.
 
 ## How I'd explain this in an interview
 
