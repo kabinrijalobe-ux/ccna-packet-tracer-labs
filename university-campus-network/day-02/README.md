@@ -111,36 +111,14 @@ The switch also generated an STP inconsistency warning regarding port type on Gi
 
 ## Screenshot evidence
 
-The real screenshots from the November 22 Packet Tracer session were prepared and cropped to show the topology, VLAN assignments, student/faculty ping tests, 3560 trunk configuration, and the 2960 trunk mismatch. The screenshots have **not yet been uploaded to GitHub**; they are supplied separately as a ready-to-upload ZIP. Do not interpret the screenshots as proof of successful inter-VLAN routing; that part of the project remains unfinished.
+The real screenshots from the November 22 Packet Tracer session were prepared and cropped to show the topology, VLAN assignments, student/faculty ping tests, 3560 trunk configuration, and the 2960 trunk mismatch. The screenshots have  they are supplied separately as a ready-to-upload ZIP. Do not interpret the screenshots as proof of successful inter-VLAN routing; that part of the project remains unfinished.
 
-After uploading the screenshots to a `screenshots/` folder beside this README, the gallery can be added as follows:
 
-```markdown
-![Network topology](screenshots/01_topology.jpg)
-![VLAN assignments](screenshots/02_vlan_assignments.jpg)
-![Successful student ping](screenshots/03_student_ping.jpg)
-![Faculty ping and isolation test](screenshots/04_faculty_ping_and_isolation.jpg)
-![Distribution trunk verification](screenshots/05_trunk_configured_on_3560.jpg)
-![Access trunk mismatch](screenshots/06_trunk_mismatch_on_2960.jpg)
-```
+<img width="1018" height="477" alt="06_trunk_mismatch_on_2960" src="https://github.com/user-attachments/assets/cb7d2ca3-3e0b-4c92-ae31-04654a4585a6" />
+<img width="1018" height="375" alt="05_trunk_configured_on_3560" src="https://github.com/user-attachments/assets/ff17fb92-0bf9-464b-ab08-332b883ad691" />
+<img width="948" height="420" alt="04_faculty_ping_and_isolation" src="https://github.com/user-attachments/assets/a852220c-54d0-421e-8d97-b17bbe7b120b" />
+<img width="948" height="330" alt="03_student_ping" src="https://github.com/user-attachments/assets/d4773478-6ec4-4747-954e-5c4006b717dd" />
+<img width="1018" height="435" alt="02_vlan_assignments" src="https://github.com/user-attachments/assets/3b0523e9-564b-45c1-b6a7-f3382a31c6e8" />
+<img width="1018" height="787" alt="01_topology" src="https://github.com/user-attachments/assets/b08227ff-141b-4d3b-a4d1-da32812a2ec2" />
 
-## Repository structure
 
-```text
-university-campus-network/
-└── day-02/
-    ├── README.md
-    └── screenshots/          # pending upload
-        ├── 01_topology.jpg
-        ├── 02_vlan_assignments.jpg
-        ├── 03_student_ping.jpg
-        ├── 04_faculty_ping_and_isolation.jpg
-        ├── 05_trunk_configured_on_3560.jpg
-        └── 06_trunk_mismatch_on_2960.jpg
-```
-
-**Packet Tracer project file:** This session's .pkt file is not yet uploaded. Save the latest state of the lab and add it to this Day 2 folder.
-
-## How I'd explain this in an interview
-
-> I started with customer requirements for a growing university and built a proof of concept for Building B in Cisco Packet Tracer. I separated student and faculty devices using VLANs and planned subnets using VLSM based on future capacity. I verified same-VLAN connectivity and confirmed that cross-VLAN traffic could not pass without routing. When I introduced the distribution switch, I found a trunk mismatch by comparing `show interfaces trunk` and `show interfaces ... switchport`. I documented the evidence and next corrective action rather than treating an accepted command as proof the network was working.
